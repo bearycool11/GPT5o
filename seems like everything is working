@@ -1,0 +1,1696 @@
+[33mcommit 50dccc13cf1e21fe74c752010cb6749c67ab0ee4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Thu Nov 21 14:11:15 2024 +0000
+
+    pmll with openai
+
+[33mcommit 1b405811fcf1850c816838277d500f421f183c9c[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 19 07:56:43 2024 -0500
+
+    Create log_trace.c
+    
+    back doors locked, and intruders spanked
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 9baa37c8a9988e8e404d7c464ce1a9c892d773e3[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 19 06:11:07 2024 -0500
+
+    Rename tracker to tracker.sh
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 48c5199e008dd6e70fc1cb95391236ce3f26f22c[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 19 06:10:42 2024 -0500
+
+    Create monitor.sh
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit df25ae00f2808110a4d499f7824d9d8cfb7ad607[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 19 05:31:19 2024 -0500
+
+    Create tracker
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 2974fdb251e8f4225e28096fed7cc0bb7e4e58c7[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 18:13:43 2024 +0000
+
+    done
+
+[33mcommit fed546ca0a84f0b34f4bc403d5463c1d71625ae1[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 18:08:16 2024 +0000
+
+    done
+
+[33mcommit 56d3e0169066254bd41e7a99ebb5e94b18a5570d[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 18:02:02 2024 +0000
+
+    done
+
+[33mcommit d833b6b65b25eae2819283488d5079e768e3713c[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 18:01:49 2024 +0000
+
+    done
+
+[33mcommit 237647f1356545fc2c87942a523633056c36ea1c[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 17:38:29 2024 +0000
+
+    nice
+
+[33mcommit 39b47f66ef4267938dc0e81150411d66fa9e5704[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 17:15:13 2024 +0000
+
+    updated the custodian
+
+[33mcommit c80c992252819a58cc992b313b7e8d56d556e45e[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 17:09:23 2024 +0000
+
+    udpated MAKEFILE
+
+[33mcommit a5e57c21274b70982ca4cd69beb045cae3b05574[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 17:07:11 2024 +0000
+
+    library for the custocian peruse
+
+[33mcommit e4d5bc569689dc715bfe4e4b73dee1cde6a63a36[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 17:05:17 2024 +0000
+
+    Custodian of wallet
+
+[33mcommit 4ff81701fb6b52a07fe6ce09bf2576c8cc9532d0[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 11:28:03 2024 -0500
+
+    Create custodian.c
+    
+    Sir Custodian
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f7f6db1e6f6c9d153c7a15ceed639f590136aaa5[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 03:16:07 2024 -0500
+
+    Update and rename Coin to Coin.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit aafb6123b1b98375fa929d172617d7381beebd9a[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 03:12:19 2024 -0500
+
+    Update Coin
+    
+    Personal wallet to donate to st. Jude
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit aa709bdb33746040104b3614093a0ad94ec65c4f[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 06:09:35 2024 +0000
+
+    modular, faster, better, stronger, API intergrated.
+
+[33mcommit b52977ccad0cc566284f2bd9088cd0d2f6daba08[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 04:08:00 2024 +0000
+
+    memory_silo made safer
+
+[33mcommit 2cfbb6ef7e0d8b689b6fe76750189ab77a6ba016[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 03:46:53 2024 +0000
+
+    UTF-8 Multilanguage
+
+[33mcommit bdd12d90071a5767388a5afe8aaba00e480b5748[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 17 22:38:48 2024 -0500
+
+    Update tokenizer.c
+    
+    UTF-8 tokens
+    Multi-language output
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c97e8820c5439a5facbe5815cd81e82ec6b51b20[m
+Merge: 3d1cf53 85a7a6c
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 03:17:51 2024 +0000
+
+    Merge branch 'main' of https://github.com/bearycool11/pmll
+
+[33mcommit 3d1cf536d8cce56d3e124316d65866a7f379c796[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 03:13:37 2024 +0000
+
+    push
+
+[33mcommit b74165b1e7881b926bd3011953378af114d1828f[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 03:12:26 2024 +0000
+
+    vs#
+
+[33mcommit 3d297c91330cc48dc6c01b3ce7693bc24fb5aa53[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 18 03:10:55 2024 +0000
+
+    json
+
+[33mcommit 85a7a6c8a522e6c82430187f8e79cfe85ea18915[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 17 22:32:13 2024 +0000
+
+    settings json .vscode
+
+[33mcommit d0490039a2443c726ea1ede3b423176235413fb3[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 17 20:15:55 2024 +0000
+
+    hello, AI
+
+[33mcommit 6002b30b7d67027f2253eb801c401c47409b48b3[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 17 15:13:06 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 4bbfcda404447b2b1659ef6f5e16a8eb9a21e165[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 17 15:04:15 2024 -0500
+
+    Update Coin
+    
+    expunge meta data and implented wallet. securely encrypted.
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit a8ae90b0a2cc9f8ea30a3eb9ed3c4039eb6a496a[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 16 16:02:10 2024 -0500
+
+    Update Coin
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f7e62d9fd9e091494ee7144c96648675d2ae5829[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 16 16:00:04 2024 -0500
+
+    Update Coin
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit dafaa6adc85f66ce61e9975bd8879900cece79ad[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 16 15:58:20 2024 -0500
+
+    Update Coin
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 55a0c5a8d35bc14667d8f64ac9817a7e330e5f83[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 16 03:40:27 2024 +0000
+
+    /
+
+[33mcommit b3fb14bc54139023c33c08c2b9212ac12861efd1[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:50:56 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 58e93bdae5cca40c61719970459a662187a0d77b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:45:41 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit ba50354c023c2f27a9ce2ae5a3cf3a7e0f259f97[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:43:26 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e93b670fe57ac29ab1713a59ca7e8bad3a021d4d[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:24:08 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 8681abd93813badd9219635d001b2cbd5b4d594a[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:19:08 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 483bcaaa22e7beebb220739a5fdc59aa2aa5bf59[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:12:50 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 4e6921f835534247b12fc4f8b9a21265aaf62855[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:10:48 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 49fe1d8f31180fa002f221699753719d2105fe5c[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 17:06:21 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c637a6813d80457c60f58d7dc785586f90289066[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 22:02:13 2024 +0000
+
+    .
+
+[33mcommit 284f41ae293ffe77e87cc481c8fbce837e87fe43[m
+Merge: 537801b d3353e1
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 21:59:12 2024 +0000
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+[33mcommit 537801b5a91ce6ab71ecb7afe5fc5dad773d7fd7[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 21:57:32 2024 +0000
+
+    push
+
+[33mcommit 563fd70a040ac3463081843c9a2d9b554b1ca3e7[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 21:54:45 2024 +0000
+
+    push
+
+[33mcommit d3353e1fe3ad7164e1fc0d24a5b633b9e78af509[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 16:35:20 2024 +0000
+
+    commit
+
+[33mcommit eae70db97e212cefe5cd39dd9c44bbc1971e8028[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 11:29:44 2024 -0500
+
+    Update deploy.sh
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c27a8e9088fd71a9501417d3d39db74f1015f11f[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 11:28:25 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit efde33aefbe89007f26b1b0cf7d6943b0b35b127[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 11:24:19 2024 -0500
+
+    Update deploy.sh
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 2b0a116378ff98116ca9d804f8e38f13b8168566[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 11:19:04 2024 -0500
+
+    Update MAKEFILE
+    
+    deploy
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 3d65874520fc48f21410f73900bd4eb9672288ec[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 11:07:48 2024 -0500
+
+    Create deploy.sh
+    
+    Deploy
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 6820630c87ed878b0c0c19f17b02f261d87bf196[m[33m ([m[1;31morigin/codespace-didactic-engine-4jwpj665qg4v3gqx[m[33m)[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 16:02:26 2024 +0000
+
+    orchestra.sh
+
+[33mcommit 004207693add80daaf5876e2ea59d91e0228c947[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 10:59:48 2024 -0500
+
+    Update MAKEFILE
+    
+    double checking
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 7aa0efbff73c5c36a0afc9a4c00a1e03d0f0ada2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 10:58:17 2024 -0500
+
+    Update MAKEFILE
+    
+    RULE ALL
+    RULE RUN
+    
+    MAKE ALL
+    MAKE RUN
+    
+    ORCHESTRATING
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 8eb00542d552893a06f2b3feeb00985606979747[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 10:55:00 2024 -0500
+
+    Update MAKEFILE
+    
+    ORCHESTRATING ORCHESTRA AS CONDUCTOR
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e1753167030599e09bc17c5777979aa8f1fe8405[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 10:51:38 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 5690442344aed21f499362295d39047dcb769ef9[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 10:47:58 2024 -0500
+
+    Update MAKEFILE
+    
+    ORCHESTRATING THE ORCHESTRA AS CONDUCTOR!
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 145c3dd5759bc643d055e6a1686951919909c303[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 10:46:57 2024 -0500
+
+    Create Orchestrate.sh
+    
+    making script, orchestrating script
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 322c10e37c423cb364e37a14d37d6f642ade03ca[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 10:40:50 2024 -0500
+
+    Update MAKEFILE
+    
+    ORCHESTRATE!
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 912f81b98c6eec5e9336aa66525b6ffa5733fbc2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 15:35:09 2024 +0000
+
+    t=
+
+[33mcommit 25106297e8b1a9aa67f00d0098ca50d5d24cc356[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 15:29:03 2024 +0000
+
+    scaffolding
+
+[33mcommit 93521cc657d0bf30f2f55951fc388be2937e5f5f[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 14:42:04 2024 +0000
+
+    f
+
+[33mcommit 2520c7351db79b08e4c25fda32c46f91b4318d1e[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 09:36:41 2024 -0500
+
+    Update API.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit cf527a75940b766a32ecac76cbb21de5c440b045[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 14:25:46 2024 +0000
+
+    push
+
+[33mcommit a1cd76aa080ea2cd8b317ffb687568e937da53ab[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 09:21:47 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 76fcf4cdcec60b134aec82b19f9ef862d63a4fe2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 09:17:32 2024 -0500
+
+    Create vector_Matrix.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 0a39f680887fa6ff1e11bafd17edd6b57abf1610[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 14:01:01 2024 +0000
+
+    push
+
+[33mcommit 22b08810d7f2844ad1a600af14ffb1980fa5546b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 08:55:40 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit d60ce0d131fad796b37e0843e1d6ce98d9804612[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 08:53:07 2024 -0500
+
+    Update API.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit fee5b99a1c26d9cff868b0937b78188f4639fc7a[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 08:46:28 2024 -0500
+
+    Update and rename API_Llama to API_Llama.c
+    
+    API access for llaMA
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f8e3d930f7bab1da48aeb3e1f8d9308b62c3e66b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 08:41:05 2024 -0500
+
+    Rename API_Llama.c to API.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 96d77f965a250c97fb3aa298df4ba909130db988[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 08:39:59 2024 -0500
+
+    Create API_Llama
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit b2a9441fb6d1e2a780ba9e2e5682b1216b3a4efa[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 08:31:45 2024 -0500
+
+    Create API_Llama.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 11f23bc1860c599ec6f4f88d7fd85cb9df0223ec[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 11:13:07 2024 +0000
+
+    deployment
+
+[33mcommit 10d3150ea801903dd2b77b43d5c6da4ad558f8e4[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 06:07:41 2024 -0500
+
+    Update MAKEFILE
+    
+    script updates
+    workflow deployments
+    enhancements
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit cf8f6e1cf584e3716e4b54cea2e11eeaecf525cc[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 06:05:02 2024 -0500
+
+    Create docs-deploy.yml
+    
+    documentation deployment
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit beb2845c928a5db3e094b8632a417fb18307a99b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 06:03:45 2024 -0500
+
+    Create release.yml
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 158111ebf2212e43ee0950a6f305795bf7d5aa93[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 06:02:24 2024 -0500
+
+    Create security-scan.yml
+    
+    security scan work flow
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 359edbf210acac0381135958b53f253d8d927cac[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 06:00:41 2024 -0500
+
+    Create deploy.yml
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit a17b7283974acd4993d6e1971e1d89609a471a07[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 05:58:41 2024 -0500
+
+    Create Deploy_press_release.sh
+    
+    for press release deployment only. to be used only for 0.1 .0 updates and 1.0.0 updates ONLY
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 2a051983cd61237e26f261a6d04635cffc371e3f[m[33m ([m[1;33mtag: [m[1;33mV2.0.0[m[33m)[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 05:39:58 2024 -0500
+
+    Update README.md
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e8d49e83e2cfd5f4cdf077cff3d745af31d9329d[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 05:38:59 2024 -0500
+
+    Update README.md
+    
+    YIJIE Han's P = NP 3-SAT theoretical proof using the Poinecare conjecture by Grigori to prove using the self referential corollary that P = NP.
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 55fa7beff5c3e3aa1fb7a1fd1319f6aff43aae9e[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 05:32:03 2024 -0500
+
+    Create README_2.0.md
+    
+    Elon Musk, Lei-Lei Andrew Ng and Nate Bookout added.
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 806d2d4d7c0629cf3278a6f416ed3ea800505cfd[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 05:10:57 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e40d394a7e8d4d7bf8be319a295a2fa18925b19b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 05:07:57 2024 -0500
+
+    Create cross_talk.c
+    
+    cross_talk IO socketed and error handling and logging for deployment stage 2
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit fd4b8f0b702885a14795e4b825fce48ea15a28f7[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Fri Nov 15 05:04:43 2024 -0500
+
+    Update io_socket.c
+    
+    updating for Cross_talk.c stage 2 deployment.
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 23a947bc87db27e5e954245f63692692549bc84a[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:54:44 2024 -0500
+
+    Create makefile.test
+    
+    testing enviroment
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit d64fdeb3b24a43e0ea44891cec19830e4005065b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:42:44 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 8281ce0f1e2e4d5f98c1886191d7bf82042d66e1[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:37:49 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 9c2b58661e8d0c3ea012b69499616e7fcb12ddaa[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:36:04 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 0b5f16acb6808d540352d43228e7cc9630e1d225[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:30:16 2024 -0500
+
+    Update MAKEFILE
+    
+    P equals NP
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 341032fa5a683dd4ebb8e43932a5c87fefae28ea[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:28:32 2024 -0500
+
+    Create Generate_3sat_instance.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 8d69c5235f27433eb5bc471e7ef44d3d2ac411fd[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:24:55 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 8b9a61577dc35d44964cad53c29f3283cd8be0f4[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:15:13 2024 -0500
+
+    Update MAKEFILE
+    
+    Test
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 2cce7a190d485d1951d64cb213135e2849e9c0f5[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 22:12:43 2024 -0500
+
+    Create 3_sat_log.c
+    
+    Test log of polynomial time for formal proof.
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 3bc7359b55606329b717cc62d01e394978729583[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:59:19 2024 -0500
+
+    Update MAKEFILE
+    
+    P = NP
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 91de31d2f4107b3e327e59b83b0277ff8677488a[m
+Merge: 92497ec 67d55c7
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:46:32 2024 -0500
+
+    Merge branch 'main' of git@github.com:bearycool11/pmll.git
+
+[33mcommit 92497ecbb85f4a23253c1a19f1fa29d11cda7c48[m
+Merge: 1b0d2c2 8d3a040
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:46:09 2024 -0500
+
+    Merge branch 'main' of git@github.com:bearycool11/pmll.git
+
+[33mcommit 67d55c76b6bd975582c1c5702b622afe3fa1274b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:40:36 2024 -0500
+
+    Update MAKEFILE
+    
+    P = NP
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 22e5f9019c6abab2cb343d34516676d73452c219[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:36:09 2024 -0500
+
+    Update MiniSAT.c
+    
+    test logging for iteration test for P = NP
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f59bea7ba3b2e63079e556d5969d0d4ef5035667[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:34:29 2024 -0500
+
+    Create run_tests.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 23a78bc8dadb4b4b1cf025f174f18f01dee3c771[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:33:40 2024 -0500
+
+    Create PMLL_SAT_Solver.c
+    
+    SAT Solver that compares PMLL over multiple iterations (say 20) to Minisat and prints out the test
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c9bc8753b4a5a8dbc1bc38bbb8921213b9a35b1e[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:14:24 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 7bf66fddeec5555cf2d72af8d8e899cc5edc6f3e[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:10:43 2024 -0500
+
+    Create SAT_Compare.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e035883dd176c36598d8190f55a573f9eb4189e6[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:10:01 2024 -0500
+
+    Create MiniSAT.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 9bece2d1f0849cb3e29e39013d00b7571ec777f8[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:07:52 2024 -0500
+
+    Create SAT_Solver.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 166d3770e6a4259b773a656a2a44ba6352bfcf3d[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 21:07:01 2024 -0500
+
+    Create 3-SAT.c
+    
+    3-SAT
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 744f42c22e1c873059e932d1385c8d2f6993243b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Wed Nov 13 00:49:53 2024 +0000
+
+    push
+
+[33mcommit 96e83850d01fed1690f96ed5876614094587ea10[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 19:43:35 2024 -0500
+
+    Update SAT.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 3bdf01fc6ec995ff93a4756e71b1b8239b671ccc[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 19:38:13 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 5257a52f8755d428900cad7f0cd2a42f78012ad9[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 19:36:29 2024 -0500
+
+    Create SAT.c
+    
+    P = NP
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit d1bfb3d6ec37ae7e2a8d57d3a4c5751f65dd5978[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 04:08:16 2024 -0500
+
+    Update README.md
+    
+    persistence.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit a0d0c58013cd79175e9123ab20554f2b0119d806[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:58:16 2024 -0500
+
+    Update README.md
+    
+    index
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 7f58eca64e2581b70a59f88749c75f75949d7022[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:56:17 2024 -0500
+
+    Update README.md
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit b56d32cbb5657e0c4cd46a616e887120a56de4e9[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:54:15 2024 -0500
+
+    Update README.md
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f96367d2e3c30689675c8f62ff05a190ffb98785[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:52:24 2024 -0500
+
+    Update README.md
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e4997108f905654f5f43f602305a0b5cf2b97c29[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:51:54 2024 -0500
+
+    Update README.md
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 3007637391410e2ce4dc6c95f00444570b251f89[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:51:10 2024 -0500
+
+    Update README.md
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 7eb9db6b7decfc9be8c43ee2a0911fba00bc16d8[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:37:24 2024 -0500
+
+    Update README.md
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit a100f4f6a47def38ac1b467bc482ec0c2da106be[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:36:28 2024 -0500
+
+    Update README.md
+    
+    explaination of new files
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 1b0d2c236ff68ea7c3ed8f73c50a7d7e0bbed96c[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 03:14:18 2024 -0500
+
+    Create Analyze_pmll.py
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 8d3a0409264a0bf27496b7071c1ca9601f87d2ee[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Tue Nov 12 00:17:43 2024 -0500
+
+    Create generate_rsa_keys.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit d1110a580fc0c47a51a69e41d7cce68624e6a556[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:57:57 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 1f52ecd6489020ec744f50560b5b52d8453f49e5[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:54:01 2024 -0500
+
+    Update Persistence.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit a32408fdc78e7f68fed559b4bb110e01f79e6193[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:47:55 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 09793abcc3a024629c7a0e2f04e654dc5de18f96[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:45:15 2024 -0500
+
+    Update memory_silo.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 9d061ed0b3224365f702d82f14dc6fa7c735e5cc[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:43:53 2024 -0500
+
+    Update io_socket.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 82f5f29e39880e71b99f3c74c5bae77dea055d41[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:41:44 2024 -0500
+
+    Update pml_logic_loop
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 1ef72d6b4f3f9e980dcdc5bd22955778782b4ed2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:39:35 2024 -0500
+
+    Update Persistence.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 3230bed5a4085ce5165c1e4fa7555bacae70dbd8[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:38:26 2024 -0500
+
+    Update Persistence.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 7c8c255ffee31516fbaeef69ecea4ddaa8e30377[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:31:18 2024 -0500
+
+    Create Persistence.c
+    
+    Persistence, using io sockets and the PMLL logic loop
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f3f3fb8269188ad9efe7fd45742389d702443a67[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:27:03 2024 -0500
+
+    Update logic_loop.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c952a09eba761d55e8634ddcd2e117a426995ef5[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:01:44 2024 -0500
+
+    done
+    
+    Done
+
+[33mcommit f99c5fd613fa3f953741f5320ff6e9950b5f13d1[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 21:02:35 2024 -0500
+
+    Update tokenizer.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e8d6066f85b60e34237f296601d707e26cbed93b[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 21:01:12 2024 -0500
+
+    Update tokenizer.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 5c98e5908827366745382fb3a938b5a7888c1713[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:58:00 2024 -0500
+
+    Update tokenizer.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e5adfaacbd6f932ca813d00dbb97e0f0fb0ec19e[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:52:41 2024 -0500
+
+    Update unified_voice.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit b86d5c0343190422368e44a3c39fe6ab7a91a9f2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:49:58 2024 -0500
+
+    Update logic_loop.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 2c4511bac129d981013a3d7db8c47bcc138ea2b6[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:46:46 2024 -0500
+
+    Update memory_assoc.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 34680876f757059efb5c9d0416f50a6a0c8910dd[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:46:01 2024 -0500
+
+    Update memory_assoc.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit cdefe817ff6bed879b31a07c23695c8ac59be0cd[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:43:06 2024 -0500
+
+    Update GPUAceel
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c6bccc35a3b36ac67bdd282749260c9725ab34aa[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:38:46 2024 -0500
+
+    Update io_socket.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 911a12d2b9ae0b448a9d54264d11b9bfa74ed32d[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:36:06 2024 -0500
+
+    Update free.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit cb8ef8704811e4262d4f163f1db4c1f2118a8ffd[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 20:33:25 2024 -0500
+
+    Update pml_logic_loop
+    
+    Error handling
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 0d9124748af3d326f13fd0959b0224d971e19423[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 22:49:12 2024 +0000
+
+    pushing
+
+[33mcommit 1afae124547e5dd031a1b7f6362ebc7afbe46f49[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 14:25:23 2024 -0500
+
+    Update pml_logic_loop
+    
+    socketed to free.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 79777d846d7441e6005f59a5c75a92359d427bd4[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 14:16:25 2024 -0500
+
+    Update free.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit e8dbd8b5d4a050cb3a98903187e4d6428e1e6166[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 14:13:55 2024 -0500
+
+    Create free.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 0c2487bf163cf3df0bcb7352a7c79e6adc32c809[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 12:38:50 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit fb64b44451ea0065788843a73af69b6486646b89[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 12:35:27 2024 -0500
+
+    Create Pmll_NP_Solver.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit d5e2dd0c291bc090f15effd44e4778916f6a748a[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 09:35:45 2024 -0500
+
+    Create Coin
+    
+    how I get paid when this gets used
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f62203fd05a7825cdf0283f6bbedbddf26be77ab[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Mon Nov 11 03:52:47 2024 -0500
+
+    Create Analyze_pmll.py
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 63929c643e146b7c3f7d63ad22464133b290322a[m[33m ([m[1;33mtag: [m[1;33mV1.1.0[m[33m)[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 10 23:00:58 2024 -0500
+
+    Update session_tracking.py
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit cdf8d85378064edf6563061e0f1fe2107d7ed3f6[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 10 22:55:42 2024 -0500
+
+    Update session_tracking.py
+    
+    revised
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f9119f2f059e4b298f597e003e7bbc52bd3d48a7[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 10 22:54:36 2024 -0500
+
+    Create test_session_tracking.py
+    
+    test session tracking
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit ec9290cad36de9ce02f746b190b064efd65890ef[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sun Nov 10 22:33:12 2024 -0500
+
+    Create session_tracking.py
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 1784bb57568d24490dd75432ec52342a17ecdea2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 19:12:57 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 56ffe4420de30f8814cd843ac633a5f69cb36ac8[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 19:08:56 2024 -0500
+
+    Update unified_voice.c
+    
+    IO socket to arc-agi benchmark solution to provide diagonsis output.
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 589b2e5461322e21795872d8fd6f77ce3821eb37[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 19:02:01 2024 -0500
+
+    Update arc_agi_benchmark.cpp
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f5f9d0c568d6cbb70c99ff002c58e7945dde7282[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 19:01:25 2024 -0500
+
+    Update benchmark_engine.cpp
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 4d9bbd19592f3df653f4462849367cc9b69166d2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 18:52:53 2024 -0500
+
+    Update benchmark_engine.cpp
+    
+    JSON intergration
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 231b3abfc8550c7929bb4751d73d0752d572a0a4[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 18:47:47 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c0cc6ada09bfb2f94e44145523553f7ee872509a[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 18:41:32 2024 -0500
+
+    Create benchmark_engine.cpp
+    
+    IO socketed engine to the arc-agi averages
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 100d00550b62ee324577bb4c02622111d07b3773[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 18:33:22 2024 -0500
+
+    Create arc_agi_benchmark.cpp
+    
+    Solution to the Arc-agi-benchmark
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 1c7c6e635a3c11d8979c0da1394313d9631b64a2[m[33m ([m[1;31morigin/codespace-glowing-invention-jjqpj99vrq9r3xjg[m[33m)[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 19:31:13 2024 +0000
+
+    committed
+
+[33mcommit 27d58b67492d7b0335d99becdf2b147d02d746b2[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 19:29:59 2024 +0000
+
+    commit
+
+[33mcommit feb873fb4d5cd080421b53d7e640bc274087fd61[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 14:10:57 2024 -0500
+
+    Update MAKEFILE
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 4b7820e3646d5dd847584fca747ebc69e0eafdec[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 14:09:13 2024 -0500
+
+    Update unified_voice.c
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit a2d28cd262f8240032b7f2f268fc59d19d8f314f[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 14:07:25 2024 -0500
+
+    Create pml_logic_loop
+    
+    IO sockets
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit c5e75943807aa0deaa3e052de3ed931f0a0eab42[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 14:03:27 2024 -0500
+
+    Create memory_silo.c
+    
+    formally defining memory silo
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit b46154f13160a51d10d9f21bbdeb7d7682e6082e[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 14:02:32 2024 -0500
+
+    Create io_socket.c
+    
+    socketing fix
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 9aec01fcb18c15a96cd1f290ce429f53dd2ffe81[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 10:12:40 2024 -0500
+
+    Update MAKEFILE
+    
+    flags corrected
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit 79cf9629074842a4d500068ed1e757e8935a3d81[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 09:53:57 2024 -0500
+
+    Create FUNDING.yml
+    
+    cash app.
+    WIll have paetron later
+    
+    Signed-off-by: Josef Edwards <joed6834@colorado.edu>
+
+[33mcommit f2937ba58255c2ed1eca946a0dda0b8ccedae9d0[m
+Author: Josef Edwards <joed6834@colorado.edu>
+Date:   Sat Nov 9 09:46:53 2024 -0500
+
+    Create cmake-multi-platform.yml
+    
+    Cmake Platform
+
+[33mcommit 2814af0133fa33973ea4f5c288e0bb5701945537[m[33m ([m[1;33mtag: [m[1;33mV1.0.0[m[33m)[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 06:06:07 2024 -0500
+
+    Update README.md
+    
+    revisions
+
+[33mcommit b85119db6656df1255b55efdbef56b53e5efdd85[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 05:43:27 2024 -0500
+
+    Update MAKEFILE
+    
+    Unified_voice implemented
+
+[33mcommit be051d3fad13975180518ae543fc3a9458e75646[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 05:41:28 2024 -0500
+
+    Update unified_voice.c
+    
+    Menu Options
+
+[33mcommit a95ac2e11cbdc200cd4dc460871a7a61e3fb39b1[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 05:22:59 2024 -0500
+
+    Create unified_voice.c
+
+[33mcommit fff69818fb8e6513dd9ebfa93a3188ff7cd5f7d2[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 03:24:08 2024 -0500
+
+    Update README.md
+
+[33mcommit 527eeca54cb634180b52a2833a872c495d6a74b2[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 03:18:14 2024 -0500
+
+    Update README.md
+    
+    further history
+
+[33mcommit 2236f76372e4fe91370801707847bd1145b28b9f[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 03:15:27 2024 -0500
+
+    Update README.md
+    
+    formal contributor recognized, logic loop white paper added to describe history, formalization and definition of the logic loop in C
+
+[33mcommit 46e19fbcee34a9c7c99ac090cdfbcf81b06eafb0[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 02:25:48 2024 -0500
+
+    Create testing.py
+    
+    python testing
+
+[33mcommit 8d0d3e7970a564be0c0bf3a087bbde2352553649[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 02:08:55 2024 -0500
+
+    Update memory_assoc.c
+
+[33mcommit 9fe41fa09cbae824da90a8f085c83903c7b19990[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 01:53:04 2024 -0500
+
+    Update contributing,md
+
+[33mcommit c3b6f624b8c42a611fbb200e514eee2e4fff2c1b[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 01:37:28 2024 -0500
+
+    Update README.md
+
+[33mcommit 59c55b187e27b4cd2121b9d44c76ac06072f51f4[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 01:35:29 2024 -0500
+
+    Update README.md
+
+[33mcommit 59db8b3b871ab7f4f90f6b802d2d9fb48a3eff71[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 01:33:22 2024 -0500
+
+    Update README.md
+
+[33mcommit 6fdc02d49ac25715375af6b406f21b718e6261af[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 01:28:33 2024 -0500
+
+    Update README.md
+    
+    COmmercial provision clarification, and allowing for added 5% royalties shared to future or current authorized contributors of this GitHub.  submit a contribution to the developer for approval if interested.
+
+[33mcommit 6f60c45da1d29ee14bdbd7b4037e2dd97d469807[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 01:11:41 2024 -0500
+
+    Create contributing,md
+
+[33mcommit bbf3b02feff9f985dadf59a035a432a17e0ccdc0[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Sat Nov 9 01:08:36 2024 -0500
+
+    Create FAQ
+
+[33mcommit 8c67ae1e9195085ce370faa0a3eb341fae956a02[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 21:01:21 2024 -0500
+
+    Update README.md
+
+[33mcommit 3bb6ce1e5cc68307d4cfd1738af4c4e5b7a96449[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:55:36 2024 -0500
+
+    Rename Tokenizer to tokenizer.c
+
+[33mcommit cfebfb0d93deb906f6e34be2faae3c2ea73bce67[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:55:11 2024 -0500
+
+    Create Tokenizer
+
+[33mcommit e3bfb3cbab0a06a60e037ba16ab13b9780965ac7[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:53:43 2024 -0500
+
+    Update MAKEFILE
+
+[33mcommit ba63981ce4c760a1fe206ababab28a377a16646d[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:50:00 2024 -0500
+
+    Rename Memory_Assoc.c to memory_assoc.can’t
+
+[33mcommit ba4d4a940d5dff06ef1556f6f87a4ef281d62513[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:47:04 2024 -0500
+
+    Rename knowledgegraphlogicloop to logic_loop.c
+
+[33mcommit c8457c7e3d8bbe704c61da88d0698f6b909589f8[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:46:00 2024 -0500
+
+    Rename MemoryAssocation.c to Memory_Assoc.c
+
+[33mcommit 92e9f4096bd2dd61684e9264b903b04a0ce10dc5[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:44:23 2024 -0500
+
+    Update MAKEFILE
+
+[33mcommit c4d4125cfd85d45b1cefc9339d2dd53f1a8db5c8[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:41:04 2024 -0500
+
+    Update MAKEFILE
+    
+    Updated
+
+[33mcommit 4011babcf954fd631b380351997d19f616cce7f4[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:31:06 2024 -0500
+
+     MemoryAssocation.c
+    
+    Memory association along the memory line, using the logic loop as a way to refresh this association, given tokenized information.
+
+[33mcommit 431ce90186680ab923afd2b3301a277af61c6eff[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 20:00:01 2024 -0500
+
+    Update README.md
+
+[33mcommit 4f937a8fae01df41b64b6fd8334ddb662dcd95d9[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 19:58:54 2024 -0500
+
+    Update README.md
+    
+    Serialization explainiation as the bitcoin blockchain
+
+[33mcommit 2940b2323f9a1368b5fba687fd05c509e58e0ced[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 06:58:23 2024 -0500
+
+    Logic Loop
+
+[33mcommit 8d287c32cd77e7c2a2d2959dd36d9c7fe8acdb6a[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Fri Nov 8 02:11:35 2024 -0500
+
+    Update README.md
+    
+    licensor email
+
+[33mcommit ca3da27bb7f6266cb5bb136b7b0e0f871a38c567[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 21:43:28 2024 -0500
+
+    Create MAKEFILE
+
+[33mcommit 75d61c3e9ddc597b6c4341f05ed2e0f4f395946c[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 21:39:40 2024 -0500
+
+    GPU Acel
+    
+    GPU acceleration
+
+[33mcommit e2153179d8a628e5f2d923e0df5e0497b1411c45[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 21:38:27 2024 -0500
+
+    Create OptimizeLogic
+
+[33mcommit 231b74ae6e1e754a33ee96b7a844dfd352edecd6[m
+Merge: 79d6add 012c776
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 21:13:16 2024 -0500
+
+    Merge pull request #1 from bearycool11/logicloop
+    
+    change to inclue the full logic loop
+
+[33mcommit 012c776482f993307320b53d33bd3e248e9dc3c7[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 21:09:43 2024 -0500
+
+    change to inclue the full logic loop
+
+[33mcommit 79d6add4c94d25fab1f0f4b046081739aea0bd66[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 21:00:01 2024 -0500
+
+    knowledgegraph
+    
+    logic loop to create persistence
+
+[33mcommit 0edd1342e375638473d9172e61e4300f57fce8ff[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 20:55:30 2024 -0500
+
+    Update README.md
+    
+    Persistent Memory Logic Loop for conversational AI within their Memory Architecture
+
+[33mcommit 9f9e7eac8e78d3ae0f09b82dbf27cc5be820e587[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 20:52:46 2024 -0500
+
+    Update LICENSE
+    
+    Commercial provisions for small businesses and large busssines.
+
+[33mcommit 5a1f55bc1cf1bc50889a8ef322e34aab74c96fc3[m
+Author: bearycool11 <joed6834@colorado.edu>
+Date:   Thu Nov 7 20:46:12 2024 -0500
+
+    Initial commit
