@@ -1,0 +1,25 @@
+name: Deploy Press Release to Memory Silos
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - press_release.json
+
+jobs:
+  deploy-press-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Environment
+        run: sudo apt-get update && sudo apt-get install -y gcc openssl curl
+
+      - name: Make Scripts Executable
+        run: chmod +x *.sh
+
+      - name: Run Deploy Script
+        run: ./Deploy_Press_Release.sh
