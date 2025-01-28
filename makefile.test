@@ -1,0 +1,168 @@
+# Compiler and Flags
+CC = gcc
+CFLAGS = -Wall -Wextra -pedantic -std=c99
+LDFLAGS = -lssl -lcrypto -lcurl
+INCLUDES = -Iinclude
+
+# Build Directories
+BUILD_DIR = build
+INSTALL_DIR = /opt/pmll
+TEST_DIR = test_build
+
+# Source files
+SOURCES = \
+    unified_voice.c \
+    pml_logic_loop.c \
+    memory_silo.c \
+    io_socket.c \
+    persistence.c \
+    cross_talk.c \
+    main.c \
+    vector_Matrix.c \
+    arc_agi_benchmark.c \
+    pmll_np_solver.c \
+    SAT_Compare.c \
+    Pmll_NP_Solver.c \
+    MiniSAT.c \
+    generate_3sat_instance.c \
+    SAT_Solver.c \
+    API_Llama.c \
+    API.c \
+    silo_manager.c \
+    logic_loop.c
+
+# Object files
+OBJECTS = $(SOURCES:.c=.o)
+
+# Targets
+TARGETS = pmll arc_agi_benchmark pmll_np_solver sat_test api_llama api vector_Matrix silo_manager logic_loop
+
+# Deployment and Testing Scripts
+DEPLOY_SCRIPT = deploy.sh
+ORCHESTRATION_SCRIPT = ./Orchestrate.sh
+
+# Default target: Build all
+.PHONY: all
+all: $(TARGETS)
+
+# Define each binary and its dependencies
+pmll: unified_voice.o pml_logic_loop.o memory_silo.o io_socket.o persistence.o cross_talk.o main.o vector_Matrix.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+arc_agi_benchmark: arc_agi_benchmark.o vector_Matrix.o io_socket.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+pmll_np_solver: pmll_np_solver.o vector_Matrix.o io_socket.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+sat_test: SAT_Compare.o Pmll_NP_Solver.o MiniSAT.o generate_3sat_instance.o SAT_Solver.o vector_Matrix.o io_socket.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+api_llama: API_Llama.o vector_Matrix.o io_socket.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+api: API.o vector_Matrix.o io_socket.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+vector_Matrix: vector_Matrix.o io_socket.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+silo_manager: silo_manager.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+logic_loop: logic_loop.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o $@ $^
+
+# Compile Rules
+%.o: %.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+
+# Test Build
+.PHONY: test
+test: clean
+	@echo "Building test executables in $(TEST_DIR)..."
+	@mkdir -p $(TEST_DIR)
+	@$(MAKE) all CFLAGS="$(CFLAGS) -g -O0 -DTEST" LDFLAGS="$(LDFLAGS)" BUILD_DIR=$(TEST_DIR)
+
+# Deployment
+.PHONY: deploy
+deploy: $(TARGETS)
+	@echo "Deploying binaries to $(INSTALL_DIR)..."
+	@sudo mkdir -p $(INSTALL_DIR)
+	@for binary in $(TARGETS); do \
+	    if [ -f $$binary ]; then \
+	        sudo cp $$binary $(INSTALL_DIR)/; \
+	        echo "Deployed $$binary to $(INSTALL_DIR)"; \
+	    else \
+	        echo "Binary $$binary not found. Skipping..."; \
+	    fi \
+	done
+	@echo "Deployment complete."
+
+# Deployment with Script
+.PHONY: deploy_script
+deploy_script: $(DEPLOY_SCRIPT)
+	@echo "Running deployment script $(DEPLOY_SCRIPT)..."
+	@if [ -f $(DEPLOY_SCRIPT) ]; then \
+	    chmod +x $(DEPLOY_SCRIPT); \
+	    ./$(DEPLOY_SCRIPT) || { echo "Deployment script failed. Check logs."; exit 1; }; \
+	else \
+	    echo "Deployment script $(DEPLOY_SCRIPT) not found."; \
+	    exit 1; \
+	fi
+
+# Start Services
+.PHONY: start_services
+start_services:
+	@echo "Starting services..."
+	@$(INSTALL_DIR)/silo_manager & echo $$! > silo_manager.pid
+	@$(INSTALL_DIR)/api & echo $$! > api.pid
+	@$(INSTALL_DIR)/logic_loop & echo $$! > logic_loop.pid
+	@echo "Services started successfully."
+
+# Stop Services
+.PHONY: stop_services
+stop_services:
+	@echo "Stopping services..."
+	@for pidfile in silo_manager.pid api.pid logic_loop.pid; do \
+	    if [ -f $$pidfile ]; then \
+	        kill `cat $$pidfile` && rm -f $$pidfile; \
+	        echo "Stopped service with PID `cat $$pidfile`"; \
+	    else \
+	        echo "PID file $$pidfile not found. Skipping..."; \
+	    fi \
+	done
+	@echo "Services stopped."
+
+# Orchestration Script
+.PHONY: Orchestrate
+Orchestrate:
+	@if [ -f $(ORCHESTRATION_SCRIPT) ]; then \
+		echo "Running orchestration script..."; \
+		chmod +x $(ORCHESTRATION_SCRIPT); \
+		$(ORCHESTRATION_SCRIPT); \
+	else \
+		echo "Error: Orchestration script $(ORCHESTRATION_SCRIPT) not found."; \
+		exit 1; \
+	fi
+
+# Clean Build Artifacts
+.PHONY: clean
+clean:
+	@echo "Cleaning up..."
+	-rm -f *.o $(TARGETS) *.pid
+	@echo "Clean complete."
+
+# Help Target
+.PHONY: help
+help:
+	@echo "Makefile commands:"
+	@echo "  all                  Build all executables."
+	@echo "  test                 Build test executables with debug flags."
+	@echo "  deploy               Deploy binaries to $(INSTALL_DIR)."
+	@echo "  deploy_script        Run deployment using deploy.sh."
+	@echo "  start_services       Start all services."
+	@echo "  stop_services        Stop all services."
+	@echo "  Orchestrate          Run the orchestration script."
+	@echo "  clean                Remove all build artifacts."
+	@echo "  help                 Show this help message."
