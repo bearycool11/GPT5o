@@ -1,0 +1,12 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ],
+<<<<<<< HEAD
+    "cmake.sourceDirectory": "/workspaces/pmll",
+    "C_Cpp.errorSquiggles": "disabled"
+=======
+    "cmake.sourceDirectory": "/workspaces/pmll/.vscode",
+    "cmake.ignoreCMakeListsMissing": true
+>>>>>>> 85a7a6c8a522e6c82430187f8e79cfe85ea18915
+}
