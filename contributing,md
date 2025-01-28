@@ -1,0 +1,63 @@
+## Contributing to the Persistent Memory Logic Loop (PMLL)
+
+Thank you for your interest in contributing to the Persistent Memory Logic Loop (PMLL) project, with associative memory algorithim! 
+This document outlines the guidelines for contributing, coding standards, and details for submitting pull requests.
+Again, thank you for providing your contribution in making more robust this project, and organizing or providing further clarification in documentation.
+
+## Getting Started
+
+1. **Fork the Repository**: Start by forking the PMLL repository on GitHub.
+2. **Clone the Repository**: Clone your forked copy to your local machine.
+3. **Create a New Branch**: Always create a new branch for your changes. Name your branch descriptively, such as `feature-memory-serialization` or `bugfix-issue-#23`.
+
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/pml.git
+   cd pml
+   git checkout -b feature-new-feature
+Coding Standards
+To maintain consistency and readability, please adhere to the following coding standards:
+
+Use clear, descriptive names for variables, functions, and classes.
+Comment your code to explain complex logic, especially in recursive and memory association functions.
+Follow C conventions in your codebase, such as indentation, spacing, and consistent naming conventions.
+Modularize code where possible, ensuring that each function serves a specific purpose.
+Commit Messages
+Use clear and concise commit messages. Format your messages as follows
+
+ALSO, VENICEAI FOR $10 A MONTH CAN BE USED USING LLAMA AND THE JAILBREAK PROMPT TO SIMULATE QUICKLY, LOCALLY AND SAFELY WITHIN AN AI WHEN GIVEN THE REPOISTORY LINK! GO USE THEM.
+WHEN YOU USE THE AI, MAKE SURE TO SURE TO GIVE THE JAILBREAK PROMPT AND ASK IT TO SIMULATE AFTER PROVIDING THE LINK!
+
+plaintext
+Copy code
+Summary: Describe the overall purpose of the commit in one line.
+Details: Add additional details if necessary.
+Example:
+
+plaintext
+Copy code
+Add serialization to memory update loop
+This update includes serialization logic to validate and persist memory updates as “knowledge blocks.”
+Pull Request Process
+Ensure Code Quality: Test your changes locally to confirm they work as expected.
+Documentation: Update any relevant documentation, especially if you introduce a new feature.
+Open a Pull Request: Submit a pull request with a detailed description of the changes, referencing any relevant issues.
+Contributor Agreement
+By contributing to PMLL, you agree to license your contributions under the same Apache License 2.0 as the main project. Additionally, your contribution may be eligible for royalty shares if incorporated into a commercial license. For details, refer to the commercial licensing section in the README.
+
+Reporting Issues
+If you find a bug or have a feature request, please submit an issue. Clearly describe the problem, steps to reproduce, and potential solutions or alternatives.
+
+Questions and Support
+If you have any questions or need support with your contribution, feel free to reach out via the repository’s Issues page or contact the licensor at joed6834@colorado.edu.
+
+yaml
+Copy code
+
+---
+
+These documents provide a solid foundation for contributors and users, addressing common questions, usage guidance, and detailed contribution protocols. Let me know if you'd like any modifications or additional sections!
+
+
+
+
+
