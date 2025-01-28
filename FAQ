@@ -1,0 +1,20 @@
+. What is the Personalized Machine Learning Layer (PMLL)?
+PMLL is a project designed to integrate personalized machine learning mechanisms into various AI applications. It allows users to implement memory persistence and recall mechanisms in AI, enhancing personalization over time.
+2. What is the purpose of PMLL?
+The main goal of PMLL is to enable AI systems to remember user preferences and contextual information over sessions. It’s designed to improve long-term user experience by simulating a more "human-like" memory in AI, allowing for a more natural, continuous interaction.
+3. Who is this project for?
+PMLL is suitable for developers working on personalized AI projects, researchers interested in machine learning and AI memory architectures, and open-source enthusiasts who want to contribute to cutting-edge AI.
+4. Is PMLL open-source?
+Yes, PMLL is an open-source project. You are free to use, modify, and share it under the terms of the LICENSE.md provided in this repository.
+5. How do I install and set up PMLL?
+Detailed installation instructions are available in docs/INSTALLATION.md. Please refer to that document to get started.
+6. What should I do if I find a bug or want to request a feature?
+If you encounter bugs or have feature requests, please create an issue in the repository under the "Issues" tab, using the appropriate template. Alternatively, you can also reach out on discussion forums or join our community channel (link if applicable).
+7. How can I contribute to PMLL?
+We welcome contributions! Please see the docs/CONTRIBUTING.md for more details on how to get started with contributions.
+8. How does PMLL handle privacy and user data?
+PMLL is designed with privacy in mind. It prioritizes local data processing and storage, with minimal external communication unless explicitly configured by the user. For more information, refer to the project’s privacy guidelines in the README.
+9. Why is the “memory persistence” feature important?
+Memory persistence is key to creating adaptive and interactive AI systems that can remember user preferences over time. This feature allows AI systems to offer more personalized experiences by retaining user-specific knowledge.
+10. Is PMLL being used internationally?
+Yes, PMLL has attracted attention from developers around the world, including contributions and adaptations from diverse communities. We encourage international contributors to add multilingual support where applicable.
