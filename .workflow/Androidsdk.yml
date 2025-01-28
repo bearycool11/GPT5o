@@ -1,0 +1,48 @@
+name: Android SDK Build and Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'zulu'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v2
+        with:
+          api-level: 30
+          build-tools: '30.0.3'
+          ndk: '22.1.7171670'
+
+      - name: Grant Execute Permission
+        run: chmod +x gradlew
+
+      - name: Build with Gradle
+        run: ./gradlew assembleDebug
+
+      - name: Run Unit Tests
+        run: ./gradlew test
+
+      - name: Run Instrumentation Tests
+        run: ./gradlew connectedAndroidTest
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: android-build
+          path: app/build/outputs/apk/debug/
