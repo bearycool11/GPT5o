@@ -1,0 +1,35 @@
+# Makefile.test for Performance Testing
+
+# Compiler and Flags
+CC = gcc
+CFLAGS = -O2
+
+# Directories
+BIN_DIR = ./bin
+LOG_FILE = ./performance_log.txt
+
+# Targets
+TARGETS = pmll_test minisat_test run_tests
+
+# Rules to build all test binaries
+all: $(TARGETS)
+
+# Compile PMLL solver for testing
+pmll_test: PMLL_SAT_Solver.c
+	$(CC) $(CFLAGS) -o $(BIN_DIR)/$@ $<
+
+# Compile MiniSat solver for testing
+minisat_test: MiniSAT.c
+	$(CC) $(CFLAGS) -o $(BIN_DIR)/$@ $<
+
+# Compile run_tests.c for running the empirical test
+run_tests: run_tests.c
+	$(CC) $(CFLAGS) -o $(BIN_DIR)/$@ $<
+
+# Run the test binary to log results
+test: all
+	$(BIN_DIR)/run_tests 20 > $(LOG_FILE)
+
+# Clean up generated files and binaries
+clean:
+	rm -f $(BIN_DIR)/* $(LOG_FILE)

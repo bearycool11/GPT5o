@@ -1,0 +1,53 @@
+#include <cuda_runtime.h>
+#include <stdio.h>
+
+#define MAX_ITERATIONS 1024  // Define the maximum number of iterations
+
+// Error checking macro
+#define CUDA_CHECK(call)                                 
+    do {                                                
+        cudaError_t err = call;                         
+        if (err != cudaSuccess) {                       
+            fprintf(stderr, "CUDA Error: %s\n",        
+                    cudaGetErrorString(err));          
+            exit(err);                                  
+        }                                               
+    } while (0)
+
+__global__ void PMLL_LogicLoop_GPU(int *counter) {
+    int tid = blockIdx.x * blockDim.x + threadIdx.x;
+    if (tid < MAX_ITERATIONS) {
+        printf("Updating memory graph at iteration %d\n", tid);
+        atomicAdd(counter, 1);  // Safely update the counter
+    }
+}
+
+int main() {
+    int *d_counter;
+    int h_counter = 0;  // Host counter
+
+    // Allocate device memory for the counter
+    CUDA_CHECK(cudaMalloc((void **)&d_counter, sizeof(int)));
+    // Initialize device counter
+    CUDA_CHECK(cudaMemcpy(d_counter, &h_counter, sizeof(int), cudaMemcpyHostToDevice));
+
+    dim3 blockSize(256);
+    dim3 gridSize((MAX_ITERATIONS + blockSize.x - 1) / blockSize.x);
+
+    // Launch the kernel
+    PMLL_LogicLoop_GPU<<<gridSize, blockSize>>>(d_counter);
+
+    // Synchronize the device
+    CUDA_CHECK(cudaDeviceSynchronize());
+
+    // Copy the counter value back to the host
+    CUDA_CHECK(cudaMemcpy(&h_counter, d_counter, sizeof(int), cudaMemcpyDeviceToHost));
+
+    // Display the total iterations processed
+    printf("Total iterations processed: %d\n", h_counter);
+
+    // Free device memory
+    CUDA_CHECK(cudaFree(d_counter));
+
+    return 0;
+}
