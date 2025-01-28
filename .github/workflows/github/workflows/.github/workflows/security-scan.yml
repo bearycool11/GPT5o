@@ -1,0 +1,23 @@
+name: Security Scan
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: sudo apt-get update && sudo apt-get install -y cppcheck
+
+      - name: Run Security Scan
+        run: cppcheck --enable=all --error-exitcode=1 .
