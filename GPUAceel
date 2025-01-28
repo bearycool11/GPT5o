@@ -1,0 +1,25 @@
+#include <cuda_runtime.h>
+#include <stdio.h>
+
+__global__ void PMLL_LogicLoop_GPU(int *counter) {
+    int tid = blockIdx.x * blockDim.x + threadIdx.x;
+    if (tid < MAX_ITERATIONS) {
+        printf("Updating memory graph at iteration %d\n", tid);
+    }
+}
+
+int main() {
+    int *d_counter;
+    cudaMalloc((void **)&d_counter, sizeof(int));
+    cudaMemset(d_counter, 0, sizeof(int));
+
+    dim3 blockSize(256);
+    dim3 gridSize((MAX_ITERATIONS + blockSize.x - 1) / blockSize.x);
+
+    PMLL_LogicLoop_GPU<<<gridSize, blockSize>>>(d_counter);
+
+    cudaDeviceSynchronize();
+    cudaFree(d_counter);
+
+    return 0;
+}

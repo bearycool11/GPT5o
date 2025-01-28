@@ -1,0 +1,30 @@
+CC=gcc
+CFLAGS=-Wall -Werror -std=c11
+LDFLAGS=-lpthread -lcrypto
+INCLUDES=-I./include
+
+all: pmll
+
+pmll: unified_voice.o pml_logic_loop.o memory_silo.o io_socket.o main.o
+	$(CC) $(CFLAGS) $(LDFLAGS) $(INCLUDES) -o pmll unified_voice.o pml_logic_loop.o memory_silo.o io_socket.o main.o
+
+unified_voice.o: unified_voice.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c unified_voice.c
+
+pml_logic_loop.o: pml_logic_loop.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c pml_logic_loop.c
+
+memory_silo.o: memory_silo.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c memory_silo.c
+
+io_socket.o: io_socket.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c io_socket.c
+
+main.o: main.c
+	$(CC) $(CFLAGS) $(INCLUDES) -c main.c
+
+clean:
+	rm -f *.o pmll
+
+run:
+	./pmll
