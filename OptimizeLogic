@@ -1,0 +1,72 @@
+#include <stdio.h>
+#include <omp.h>
+
+#define MAX_ITERATIONS 100
+#define CHUNK_SIZE 4  // Number of iterations to process in each batch
+
+void PMLL_LogicLoop_Optimized() {
+    char buffer[1024]; // Buffer to store messages
+    int buffer_index = 0;
+
+    #pragma omp parallel for schedule(dynamic) simd
+    for (int i = 0; i < MAX_ITERATIONS; i += CHUNK_SIZE) {
+        for (int j = 0; j < CHUNK_SIZE; ++j) {
+            if (i + j < MAX_ITERATIONS) {
+                #pragma omp critical
+                {
+                    // Aggregate messages into the buffer
+                    buffer_index += snprintf(buffer + buffer_index, sizeof(buffer) - buffer_index, 
+                                             "Updating memory graph at iteration %d\n", i + j);
+                    
+                    // Print buffer if nearly full
+                    if (buffer_index > sizeof(buffer) - 50) {
+                        printf("%s", buffer);
+                        buffer_index = 0; // Reset buffer
+                    }
+                }
+            }
+        }
+    }
+
+    // Print any remaining messages in the buffer
+    if (buffer_index > 0) {
+        printf("%s", buffer);
+    }
+}
+
+int main() {
+    printf("Optimized Logic Loop:\n");
+    PMLL_LogicLoop_Optimized();
+    return 0;
+}
+
+int main() {
+    PMLL_LogicLoop_Optimized();
+    return 0;
+}
+
+#include <cuda_runtime.h>
+#include <stdio.h>
+
+__global__ void PMLL_LogicLoop_GPU(int *counter) {
+    int tid = blockIdx.x * blockDim.x + threadIdx.x;
+    if (tid < MAX_ITERATIONS) {
+        printf("Updating memory graph at iteration %d\n", tid);
+    }
+}
+
+int main() {
+    int *d_counter;
+    cudaMalloc((void **)&d_counter, sizeof(int));
+    cudaMemset(d_counter, 0, sizeof(int));
+
+    dim3 blockSize(256);
+    dim3 gridSize((MAX_ITERATIONS + blockSize.x - 1) / blockSize.x);
+
+    PMLL_LogicLoop_GPU<<<gridSize, blockSize>>>(d_counter);
+
+    cudaDeviceSynchronize();
+    cudaFree(d_counter);
+
+    return 0;
+}
